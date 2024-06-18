@@ -1,0 +1,182 @@
+.container{
+    /* width: 100%; */
+    margin: 40px auto 5px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#footer{
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 20px 0 20px 0 ;
+    font-weight: bolder;
+}
+
+
+.header_container{
+    /* width: 100%; */
+    background-color: #f7f7f7;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 0 0 10px 10px;
+}
+.header_container .right{
+    display: flex;
+}
+.header_container .right .user{
+    margin-right: 20px;
+}
+.images{
+    width: 100%;
+    height: 100%;
+
+}
+.images .background{
+    height: 600px;
+    background-image: url('https://d4804za1f1gw.cloudfront.net/wp-content/uploads/sites/50/2018/11/06110356/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
+.images .background .contain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.images .background .contain .text{
+    width: 50%;
+    padding: 20px;
+
+}
+
+.images .background .contain .lib_text{
+    font-size: 70px;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: #f7f7f7;
+}
+.images .background .contain .sub_lib{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    background-color:blue;
+    display: inline-block;
+    padding: 2px 5px 2px 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.discription{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: auto;
+}
+.discription .text{
+    width: 50%;
+    padding: 20px;
+}
+.discription .text p{
+    font-size: 18px;
+    text-align: justify;
+
+}
+.discription .dis_image{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+}
+.discription .dis_image img{
+    width: 100%;
+    height: 100%;
+}
+
+.detailing{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: auto;
+}
+
+.detailing .para{
+    width: 50%;
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.detailing .bar_img{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+}
+.detailing .bar_img img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.benifit{
+    background-color: gainsboro;
+}
+.benifit .context{
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+}
+.benifit .context .sides{
+    display: flex;
+    padding: 20px;
+}
+.benifit .context .sides .beni_img{
+width: 50%;
+height: auto;
+padding: 10px;
+}
+.benifit .context .sides .beni_img img{
+    width: 100%;
+    height: auto;
+}
+
+.benifit .context .sides .texting {
+    margin-top: 10px;
+}
+.benifit .context .sides .texting .sub_heading{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.benifit .context .sides .texting .paragraph{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    text-align: justify;
+}
+.benifit .context .sides .head_text{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    }
+
+
+
+
+
+ 
+
+
